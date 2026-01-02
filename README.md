@@ -89,12 +89,12 @@ Here are some examples of how the model predicts facial expressions:
 
 ### Example 1: Happy Expression
 
-![Predicted: Happy](1.png)
+![Predicted: Happy](happy.png)
 
 
 ### Example 2: Disappointed Expression
 
-![Predicted: Disappointed](2.png)
+![Predicted: Disappointed](sad.png)
 
 
 ## 🙏 Acknowledgments
