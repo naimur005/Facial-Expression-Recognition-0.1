@@ -77,7 +77,7 @@ The training process achieved the following results:
 - **Validation accuracy**: ~78-82%
 - **Minimal overfitting**: The training and validation curves are close together, suggesting the model generalizes well.
 
-### Training History Visualization
+### Training History
 Below is a graph showing the training and validation accuracy and loss over the epochs:
 
 ![Training History](training_history.png)
