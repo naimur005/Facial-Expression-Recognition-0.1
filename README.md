@@ -1,7 +1,5 @@
 # Facial-Expression-Recognition-0.1
 
-Binary classification: **Happy** vs **Disappointed**
-
 ## 📝 Overview
 
 This project aims to build a Facial Expression Recognition (FER) system using a Convolutional Neural Network (CNN). The model is designed to classify facial expressions into two categories: Happy vs Disappointed. By using the FER2013 dataset, the model learns to identify emotional expressions from facial images, which can be applied in various fields like human-computer interaction, emotion recognition, and AI-driven applications.
@@ -17,7 +15,11 @@ pip install -r requirements.txt
 
 ### 2. Prepare Dataset
 
-Place your FER dataset in the `Dataset/` folder with the structure shown above.
+### 2. Prepare Dataset
+
+- Download the FER2013 dataset from the [Kaggle link](https://www.kaggle.com/datasets/msambare/fer2013), and extract it to the `Dataset/` directory. The folder structure should include separate folders for training and testing data. 
+- Ensure that each folder contains subfolders for each emotion, such as "Happy", "Disapointed".
+
 
 ### 3. Train the Model
 
@@ -50,7 +52,6 @@ python predict.py --folder Pictures/
 ## ⚙️ Configuration
 
 ```python
-# In train.py, modify these lines:
 TRAIN_PATH = './Dataset/Train'    
 VALID_PATH = './Dataset/Test'     
 ```
