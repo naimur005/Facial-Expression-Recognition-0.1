@@ -15,8 +15,6 @@ pip install -r requirements.txt
 
 ### 2. Prepare Dataset
 
-### 2. Prepare Dataset
-
 - Download the FER2013 dataset from the [Kaggle link](https://www.kaggle.com/datasets/msambare/fer2013), and extract it to the `Dataset/` directory. The folder structure should include separate folders for training and testing data. 
 - Ensure that each folder contains subfolders for each emotion, such as "Happy", & "Disapointed".
 
