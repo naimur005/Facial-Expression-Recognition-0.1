@@ -1,5 +1,8 @@
 # Facial-Expression-Recognition-0.1
 
+Binary classification: **Happy** vs **Disappointed**
+
+
 ## 📝 Overview
 
 This project aims to build a Facial Expression Recognition (FER) system using a Convolutional Neural Network (CNN). The model is designed to classify facial expressions into two categories: Happy vs Disappointed. By using the FER2013 dataset, the model learns to identify emotional expressions from facial images, which can be applied in various fields like human-computer interaction, emotion recognition, and AI-driven applications.
