@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ### 2. Prepare Dataset
 
 - Download the FER2013 dataset from the [Kaggle link](https://www.kaggle.com/datasets/msambare/fer2013), and extract it to the `Dataset/` directory. The folder structure should include separate folders for training and testing data. 
-- Ensure that each folder contains subfolders for each emotion, such as "Happy", "Disapointed".
+- Ensure that each folder contains subfolders for each emotion, such as "Happy", & "Disapointed".
 
 
 ### 3. Train the Model
@@ -71,9 +71,16 @@ VALID_PATH = './Dataset/Test'
 
 ## 📊 Expected Results
 
-- Training accuracy: ~85%
-- Validation accuracy: ~78-82%
-- Minimal overfitting (train/val curves close together)
+The training process achieved the following results:
+
+- **Training accuracy**: ~85%
+- **Validation accuracy**: ~78-82%
+- **Minimal overfitting**: The training and validation curves are close together, suggesting the model generalizes well.
+
+### Training History Visualization
+Below is a graph showing the training and validation accuracy and loss over the epochs:
+
+![Training History](training_history.png)
 
 
 ## 🙏 Acknowledgments
