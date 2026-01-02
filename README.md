@@ -83,6 +83,19 @@ Below is a graph showing the training and validation accuracy and loss over the 
 
 ![Training History](training_history.png)
 
+### 🖼️ Prediction Results
+
+Here are some examples of how the model predicts facial expressions:
+
+### Example 1: Happy Expression
+
+![Predicted: Happy](1.png)
+
+
+### Example 2: Disappointed Expression
+
+![Predicted: Disappointed](2.png)
+
 
 ## 🙏 Acknowledgments
 
